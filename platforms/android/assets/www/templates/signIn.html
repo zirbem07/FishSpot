@@ -1,0 +1,25 @@
+<ion-pane>
+    <ion-content style="background-color: #43cee6">
+        <div class="col-offset-10">
+            <img src="img/logo.png">
+        </div>
+        <div class="list list-inset" style="border: 1px solid black">
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Email</span>
+                <input type="email" placeholder="Email">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Password</span>
+                <input type="password" placeholder="Password">
+            </label>
+        </div>
+        <div class="list list-inset" style="background-color: #43cee6">
+            <button ng-click="signIn('/map')" class="button button-block  button-positive">
+                Sign In
+            </button>
+            <button ng-click="register('/register')" class="button button-block button-balanced">
+                Register
+            </button>
+        </div>
+    </ion-content>
+</ion-pane>
